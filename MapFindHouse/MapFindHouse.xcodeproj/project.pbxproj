@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAC3749D20E1D69800FF0336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC3749C20E1D69800FF0336 /* AppDelegate.m */; };
-		AAC374A020E1D69800FF0336 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC3749F20E1D69800FF0336 /* ViewController.m */; };
 		AAC374A320E1D69800FF0336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC374A120E1D69800FF0336 /* Main.storyboard */; };
 		AAC374A520E1D69900FF0336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC374A420E1D69900FF0336 /* Assets.xcassets */; };
 		AAC374A820E1D69900FF0336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC374A620E1D69900FF0336 /* LaunchScreen.storyboard */; };
 		AAC374AB20E1D69900FF0336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC374AA20E1D69900FF0336 /* main.m */; };
+		AAC374B820E1E69400FF0336 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC374B520E1E69400FF0336 /* ViewController.m */; };
+		AAC374B920E1E69400FF0336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC374B620E1E69400FF0336 /* AppDelegate.m */; };
+		AAC374BD20E1E74A00FF0336 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC374BC20E1E74A00FF0336 /* Person.m */; };
 		EFEA743AA569F28BA522ABCF /* Pods_MapFindHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE33E5336E7092DEA69479E /* Pods_MapFindHouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,15 +21,17 @@
 		9DE33E5336E7092DEA69479E /* Pods_MapFindHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapFindHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A281F9F1881EB7AEECD024E3 /* Pods-MapFindHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapFindHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapFindHouse/Pods-MapFindHouse.debug.xcconfig"; sourceTree = "<group>"; };
 		AAC3749820E1D69800FF0336 /* MapFindHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapFindHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAC3749B20E1D69800FF0336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AAC3749C20E1D69800FF0336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AAC3749E20E1D69800FF0336 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AAC3749F20E1D69800FF0336 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AAC374A220E1D69800FF0336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAC374A420E1D69900FF0336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAC374A720E1D69900FF0336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAC374A920E1D69900FF0336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAC374AA20E1D69900FF0336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAC374B420E1E69400FF0336 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAC374B520E1E69400FF0336 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAC374B620E1E69400FF0336 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAC374B720E1E69400FF0336 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAC374BB20E1E74A00FF0336 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AAC374BC20E1E74A00FF0336 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C2C6B4C1138B16427E1073EF /* Pods-MapFindHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapFindHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapFindHouse/Pods-MapFindHouse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,10 +85,8 @@
 		AAC3749A20E1D69800FF0336 /* MapFindHouse */ = {
 			isa = PBXGroup;
 			children = (
-				AAC3749B20E1D69800FF0336 /* AppDelegate.h */,
-				AAC3749C20E1D69800FF0336 /* AppDelegate.m */,
-				AAC3749E20E1D69800FF0336 /* ViewController.h */,
-				AAC3749F20E1D69800FF0336 /* ViewController.m */,
+				AAC374B320E1E69400FF0336 /* AppDelegate */,
+				AAC374BA20E1E6B000FF0336 /* Classes */,
 				AAC374A120E1D69800FF0336 /* Main.storyboard */,
 				AAC374A420E1D69900FF0336 /* Assets.xcassets */,
 				AAC374A620E1D69900FF0336 /* LaunchScreen.storyboard */,
@@ -94,6 +95,27 @@
 			);
 			path = MapFindHouse;
 			sourceTree = "<group>";
+		};
+		AAC374B320E1E69400FF0336 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AAC374B420E1E69400FF0336 /* AppDelegate.h */,
+				AAC374B520E1E69400FF0336 /* ViewController.m */,
+				AAC374B620E1E69400FF0336 /* AppDelegate.m */,
+				AAC374B720E1E69400FF0336 /* ViewController.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AAC374BA20E1E6B000FF0336 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAC374BB20E1E74A00FF0336 /* Person.h */,
+				AAC374BC20E1E74A00FF0336 /* Person.m */,
+			);
+			name = Classes;
+			path = MapFindHouse/Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -228,9 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC374A020E1D69800FF0336 /* ViewController.m in Sources */,
+				AAC374B920E1E69400FF0336 /* AppDelegate.m in Sources */,
+				AAC374B820E1E69400FF0336 /* ViewController.m in Sources */,
+				AAC374BD20E1E74A00FF0336 /* Person.m in Sources */,
 				AAC374AB20E1D69900FF0336 /* main.m in Sources */,
-				AAC3749D20E1D69800FF0336 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +397,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NL2Y33F84L;
 				INFOPLIST_FILE = MapFindHouse/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fuzhangwang.cn.MapFindHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,7 +415,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NL2Y33F84L;
 				INFOPLIST_FILE = MapFindHouse/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = fuzhangwang.cn.MapFindHouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
