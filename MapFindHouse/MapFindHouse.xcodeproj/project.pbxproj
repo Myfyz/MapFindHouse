@@ -100,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				AAC374B420E1E69400FF0336 /* AppDelegate.h */,
-				AAC374B520E1E69400FF0336 /* ViewController.m */,
 				AAC374B620E1E69400FF0336 /* AppDelegate.m */,
 				AAC374B720E1E69400FF0336 /* ViewController.h */,
+				AAC374B520E1E69400FF0336 /* ViewController.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";

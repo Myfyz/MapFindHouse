@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor yellowColor];
     NSLog(@"添加了一些第三方库,以及pods");
+    NSLog(@"重新提交!");
+    NSLog(@"重新提交!");
 }
 
 
